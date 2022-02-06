@@ -212,7 +212,7 @@ values_1 = [
 
 print("\n\nExample Sudoku\n")
 
-grid = Grid(values=values_1)
+grid = Grid(values=values_2)
 grid = grid.solve(20)
 if not grid is None and grid.isSolved():
     print(grid)
